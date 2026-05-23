@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Claude 中文化(Design 专版)",
+  "version": "0.1.0",
+  "description": "为 claude.ai 提供 UI 中文化,特别为 /design 页面优化。只翻译 UI 文案,不动你的输入和 AI 输出。",
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*"],
+      "js": [
+        "src/dictionary.js",
+        "src/boundary.js",
+        "src/translator.js",
+        "src/content.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ]
+}
