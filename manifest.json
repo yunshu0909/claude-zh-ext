@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Claude 中文化(Design 专版)",
+  "name": "Lumi 译伴 — Claude 中文化",
   "version": "0.1.0",
-  "description": "为 claude.ai 提供 UI 中文化,特别为 /design 页面优化。只翻译 UI 文案,不动你的输入和 AI 输出。",
+  "description": "给 Claude 打一道光,让你看见中文。专为 claude.ai 与 claude.ai/design 维护的中文 UI 词表;只翻译界面,不动你的输入与 AI 输出。",
   "content_scripts": [
     {
       "matches": ["https://claude.ai/*"],

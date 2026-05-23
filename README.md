@@ -1,8 +1,12 @@
-# Claude 中文化(Design 专版)
+# Lumi 译伴 — Claude 中文化
 
-Chrome 浏览器扩展,把 [claude.ai](https://claude.ai) 和 [claude.ai/design](https://claude.ai/design) 的英文 UI 翻译成中文。
+> **给 Claude 打一道光,让你看见中文。**
+
+一个专门为 [claude.ai](https://claude.ai) 和 [claude.ai/design](https://claude.ai/design) 维护的中文 UI 词表 Chrome 扩展。
 
 **只翻译 UI 文案**,不会动用户输入和 AI 输出。
+
+**英文名**:Lumi · **中文名**:译伴
 
 ---
 
